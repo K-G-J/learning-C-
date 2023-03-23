@@ -4,9 +4,12 @@ using namespace std;
 
 int main()
 {
-  double x = 10;
-  double y = 5;
-  double z = (x + 10) / (3 * y);
-  cout << z;
+  double sales = 95000;
+  double stateTax = 0.04;
+  double countyTax = 0.02;
+  cout << "Sales: $" << sales << endl
+       << "State Tax: $" << stateTax * sales << endl
+       << "County Tax: $" << countyTax * sales << endl
+       << "Total Tax: $" << (sales * stateTax) + (sales * countyTax);
   return 0;
 }
