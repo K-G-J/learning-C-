@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-  int x = 10;
-  // int y = x++; // x = 11, y = 10
-  int z = ++x;
-  std::cout << x;
+  double x = 10;
+  double y = 5;
+  double z = (x + 10) / (3 * y);
+  cout << z;
   return 0;
 }
