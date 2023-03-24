@@ -5,10 +5,11 @@ using namespace std;
 
 int main()
 {
-  double radius;
-  cout << "What is the radius of the circle?  ";
-  cin >> radius;
-  const double pi = 3.14;
-  cout << "The area of the circle is " << pi * pow(radius, 2);
+  double price = 99.99;
+  float interestRate = 3.67f;
+  long fileSize = 90000L;
+  char letter = 'a';
+  auto isValid = false;
+  int number {}; // initializes number to 0
   return 0;
 }
